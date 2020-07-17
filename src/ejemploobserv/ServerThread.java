@@ -21,7 +21,7 @@ public class ServerThread extends Thread {
     }
 
     public ServerThread(Observer observer) throws IOException { //Desencadenar
-        server = new ServerSocket(7700);
+        server = new ServerSocket(5000);
         this.observer = observer;
     }
 
